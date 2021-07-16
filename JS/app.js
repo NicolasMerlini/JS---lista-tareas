@@ -1,5 +1,5 @@
 let tarea = [];
 
-function agregarTarea () {
+function agregarTarea() {
   tarea.push()
 }
