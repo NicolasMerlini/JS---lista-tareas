@@ -19,15 +19,15 @@
   </header>
   <main>
     <div class="input-group mt-5">
-      <input type="text" class="form-control" placeholder="Tarea" aria-label="Recipient's username with two button addons">
-      <button class="btn btn-outline-secondary" type="button" onclick="agregarTarea()">Agregar</button>
+      <input type="text" class="form-control" placeholder="Tarea" aria-label="Recipient's username with two button addons" id="tarea" value="">
+      <button class="btn btn-outline-secondary" type="button" onclick="agregarTarea(tarea)">Agregar</button>
       <button class="btn btn-outline-secondary" type="button" onclick="mostrarTarea()">Mostrar lista</button>
     </div>
-    <ul class="mt-5">Lista de tareas
+    <ul class="mt-5" id="lista">Lista de tareas
 
     </ul>
   </main>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="./JS/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
